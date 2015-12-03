@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1448425286 source:/home/linxy/code/算法/HDOJ/HDOJ1713/main.c
+	<stdio.h>
+	<stdlib.h>
+

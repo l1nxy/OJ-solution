@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1449027733 source:/home/linxy/code/算法/POJ/POJ1852/main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
