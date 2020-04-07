@@ -6,10 +6,18 @@ class Solution {
 public:
     int cuttingRope(int n) {
         int ret = 1;
-        while(n != 1)
+        if(n <= 3)
+            return n-1;
+        else
         {
-            ret *= (int)sqrt(n);
-            n -=(int)sqrt(n);
+            int a = n /3;
+            int b = n%3;
+            if(b == 0)
+                ret = pow(3,a);
+            else if(b == 1)
+                ret = pow(3,a-1)*4;
+            else
+                ret = pow(3,a)*b;
         }
         return ret;
     }
